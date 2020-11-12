@@ -22,7 +22,6 @@ cron "15 10 * * *" script-path=https://raw.githubusercontent.com/lxk0301/jd_scri
 cron "1 1 * * *" script-path=https://raw.githubusercontent.com/lxk0301/jd_scripts/master/jd_redPacket.js, tag=京东全民开红包
 cron "20 * * * *" script-path=https://raw.githubusercontent.com/lxk0301/jd_scripts/master/jd_collectProduceScore.js, tag=京东全民营业领金币
 cron "7 0 * * *" script-path=https://raw.githubusercontent.com/Sunert/Scripts/master/Task/jingxi.js, tag=京喜
-cron "5 9-22 * * *" script-path=https://raw.githubusercontent.com/yangtingxiao/QuantumultX/master/scripts/jd/jd_bigWinner.js,enable=true, tag=京东大赢家
 cron "01,04 7 * * *" script-path=https://raw.githubusercontent.com/lxk0301/jd_scripts/master/jd_joy.js, tag=宠汪汪
 cron "11,15 7 * * *" script-path=https://raw.githubusercontent.com/yangtingxiao/QuantumultX/master/scripts/jd/jd_rankingList.js,tag=京东排行榜
 cron "0 */3 * * *" script-path=https://raw.githubusercontent.com/lxk0301/jd_scripts/master/jd_daily_egg.js, tag=天天提鹅
