@@ -25,7 +25,7 @@ cron "0 */3 * * *" script-path=https://raw.githubusercontent.com/lxk0301/jd_scri
 cron "12 * * * *" script-path= https://raw.githubusercontent.com/lxk0301/jd_scripts/master/jd_pigPet.js, tag=金融养猪
 cron "01,05 9 * * *" script-path=https://raw.githubusercontent.com/lxk0301/jd_scripts/master/jd_bean_change.js, tag=京豆变动通知
 cron "55,59 23 * * *" script-path=https://raw.githubusercontent.com/lxk0301/jd_scripts/master/jd_unsubscribe.js,timeout=30, tag=取关京东店铺商品
-cron "45 4 14,15 * * *" script-path=https://raw.githubusercontent.com/evilbutcher/Quantumult_X/master/check_in/glados/checkin_env.js, tag=机场签到
+#cron "45 4 14,15 * * *" script-path=https://raw.githubusercontent.com/evilbutcher/Quantumult_X/master/check_in/glados/checkin_env.js, tag=机场签到
 cron "0 0,6 * * *" script-path=https://raw.githubusercontent.com/lxk0301/jd_scripts/master/jd_joy_steal.js,timeout=30, tag=宠汪汪偷好友积分与狗粮
 #cron "0 12 * * *" script-path=https://raw.githubusercontent.com/id77/QuantumultX/master/task/jdWuLiu.js, tag=京东物流
 cron "2 0 * * *" script-path= https://raw.githubusercontent.com/799953468/Quantumult-X/master/Scripts/JD/jd_paopao.js,timeout=30, tag=泡泡大作战
