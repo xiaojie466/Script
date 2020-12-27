@@ -5,8 +5,8 @@
 [Script]
 cron "0,01 0 * * *" script-path=https://raw.githubusercontent.com/lxk0301/jd_scripts/master/jd_club_lottery.js,tag=摇京豆
 cron "10 0 * * *" script-path=https://raw.githubusercontent.com/lxk0301/jd_scripts/master/jd_shop.js,timeout=30, tag=进店领豆
-cron "14,18 0 * * *" script-path=https://raw.githubusercontent.com/chavyleung/scripts/master/rrtv/rrtv.js,tag=人人视频
-cron "21,25 0 * * *" script-path=https://raw.githubusercontent.com/chavyleung/scripts/master/bilibili/bilibili.js,tag=哔哩哔哩
+cron "18 0 * * *" script-path=https://raw.githubusercontent.com/chavyleung/scripts/master/rrtv/rrtv.js,tag=人人视频
+cron "25 0 * * *" script-path=https://raw.githubusercontent.com/chavyleung/scripts/master/bilibili/bilibili.js,tag=哔哩哔哩
 cron "1 0,8,12,16 * * *" script-path=https://raw.githubusercontent.com/lxk0301/jd_scripts/master/jd_joy_reward.js,timeout=30, tag=宠汪汪积分兑换奖品
 cron "20 5 * * *" script-path=https://raw.githubusercontent.com/lxk0301/jd_scripts/master/jd_blueCoin.js,timeout=30, tag=京小超领蓝币(兑换京豆
 cron "0 0,9,11,13,15,17,19,20,21,23 * * *" script-path=https://raw.githubusercontent.com/lxk0301/jd_scripts/master/jd_live_redrain.js,timeout=20,tag=直播红包雨
@@ -14,6 +14,5 @@ cron "10 0 * * *" script-path=https://raw.githubusercontent.com/lxk0301/jd_scrip
 cron "10 0 * * *" script-path=https://raw.githubusercontent.com/lxk0301/jd_scripts/master/jd_kd.js,timeout=20,tag=快递签到
 cron "10 7 * * *" script-path=https://raw.githubusercontent.com/lxk0301/jd_scripts/master/jd_ms_redrain.js,timeout=20,tag=秒杀红包雨
 cron "20 7 * * *" script-path=https://raw.githubusercontent.com/lxk0301/jd_scripts/master/jd_bean_home.js,timeout=20,tag=额外奖励
-cron "30 2 1,10,20 * *" script-path=https://raw.githubusercontent.com/photonmang/quantumultX/master/cache/shareCode.js,timeout=120,tag=互助码
 cron "30 7-22 * * *" script-path=https://raw.githubusercontent.com/evilbutcher/Quantumult_X/master/check_in/appstore/AppMonitor.js,timeout=600,tag=App价格监控
 cron "35 2 1,10,20 * *" script-path=https://raw.githubusercontent.com/xiaojie466/Script/Pv/jdhzm.js,timeout=20,tag=云互助码
