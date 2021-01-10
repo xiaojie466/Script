@@ -128,7 +128,7 @@ function createJx() {
       try {
          const obj = JSON.parse(data)
         if (obj.code == 200) {
-          $.result.push("东东工厂互助码添加成功✅")
+          $.result.push("惊喜工厂互助码添加成功✅")
         }else
 		if(obj.code == 400) {
           $.result.push("惊喜工厂互助码已存在")
